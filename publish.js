@@ -7,6 +7,7 @@ const runCommands = (commands) => {
 }
 
 const commands = [
+    // `npm version patch`,
     `npm publish`,
     `git add .`,
     `git commit -m "as published to npm at ${new Date()}"`,
