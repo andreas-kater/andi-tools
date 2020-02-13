@@ -25,11 +25,11 @@ test(`supply number`, () => {
 })
 
 test(`format 02 Mar 2020`, () => {
-    const date = new Date(2020, 3, 2)
+    const date = new Date(2020, 2, 2)
     expect(ddmmmyyyy(date)).toBe(`02 Mar 2020`)
 })
 
 test(`format 2 Mar 2020`, () => {
-    const date = new Date(2020, 3, 2)
+    const date = new Date(2020, 2, 2)
     expect(dmmmyyyy(date)).toBe(`2 Mar 2020`)
 })
